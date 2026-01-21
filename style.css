@@ -3,6 +3,12 @@ body{
 
 }
 
+.wraper{
+    max-inline-size: 1440px;
+    margin-inline: auto;
+}
+
+
 header{
     display: flex;
 }
