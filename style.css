@@ -21,3 +21,10 @@ header nav ul{
     margin: 0;
     padding: 0;
 }
+
+.label{
+    color: #4B5563;
+    background-color: #E5E7EB;
+    padding-block: 4px;
+    padding-inline: 20px;
+}
