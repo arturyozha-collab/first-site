@@ -1,5 +1,6 @@
 body{
-    font-family: 'inter', sans-serif;
+    font-family: "Inter", sans-serif;
+    margin: 0;
 
 }
 
@@ -12,6 +13,36 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    margin-block: 0px;
+    padding: 16px 25px;
+    background-color: #323137;
+    max-block-size: 68px;
+    color: #fafafa;
+}
+
+header p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+header nav{
+    display: flex;
+    place-items: center;
+ 
+}
+
+header a{
+    text-decoration: none;
+    color: #fafafa;
+    transition: all 0.15s ease-in-out 0.15s;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #cc2129;
+    
+
 }
 
 header nav ul{
@@ -20,12 +51,74 @@ header nav ul{
     gap: 24px;
     margin: 0;
     padding: 0;
+    font-weight: medium;
 }
 
+.label p {
+    margin: 0;
+    padding: 0;
+}
 .label{
-    color: #4B5563;
+   
     background-color: #E5E7EB;
     padding-block: 4px;
     padding-inline: 20px;
-    border-radius: 12%;
+    border-radius: 12px;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.label a{
+    color: #4B5563;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out 0.15s;
+
+}
+
+.label a:hover{
+    text-decoration: underline;
+    color: #cc2129;
+    
+
+}
+
+
+section{
+    padding-inline: 25px;
+    padding-block: 36px;
+    border-block: #32313711 solid 1px;
+}
+
+h1{
+    font-weight: bold;
+    color: #323137;
+}
+
+main p{
+    color: #61596b;
+}
+
+.hello ul{
+    list-style: none;
+    
+}
+.hello li{
+    display: flex;
+    align-items: center;
+}
+
+.hello li::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-inline-end: 15px;
+    background-image: url('location-icon.svg');
+    display: inline-block;
+
+
+
+}
+
+section ul{
+    color: #61596b;
 }
