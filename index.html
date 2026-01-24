@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Artur Yozh | Portfolio</title>
+        <title>Artur | Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -17,18 +17,26 @@
             <header id="logo">
                 <p >&lt;Artur | Portfolio&gt;</p>
 
-                <nav>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <label for="menu-toggle" class="menu-overlay"></label>
+                <nav class="nav-menu">
                     <ul>
                         <li><a href="#about">About me</a></li>
                         <li><a href="#work">Work</a></li>
                         <li><a href="#educ">Education</a></li>
-                        <li><a>Contacts</a></li>
+                        <li><a href="ua-home.html">UA</a></li>
                     </ul>
                 </nav>
 
             </header>
 
             <main>
+                <div id="label-nav"></div>
                 <section class="hello">
                     <h1>Hi, I'm Artur</h1>
 
@@ -48,7 +56,7 @@
                 <section class="about-me" id="about">
 
                     <div class="label">
-                        <p><a href="#logo">About me</a></p>
+                        <p><a href="#label-nav">About me</a></p>
                     </div>
 
                     <h2>Curious about me?</h2>
@@ -59,7 +67,7 @@
 
                     <p>A few facts about me:</p>
                     <ul>
-                        <li><strong>Education:</strong> Bachelor's degree in Computer Engineering (ZNU, 2024).</li>
+                        <li><strong>Education:</strong> Bachelor's degree in Computer Engineering (ZUNU, 2024).</li>
                         <li><strong>Skills:</strong> Video editing (DaVinci Resolve), Market analysis, AI Data Labeling.</li>
                         <li><strong>Languages:</strong> English (Intermediate — confident content creation and communication).</li>
                         <li><strong>Development:</strong> Self-taught Web Developer (this website is my case study).</li>
@@ -73,7 +81,7 @@
                 <section class="work" id="work">
 
                     <div class="label">
-                        <p ><a href="#logo">My work</a></p>
+                        <p ><a href="#label-nav">My work</a></p>
                     </div>
 
                     <div>
@@ -121,7 +129,7 @@
 
                 <section class="education" id="educ">
                     <div class="label">
-                        <p><a href="#logo">Education</a></p>
+                        <p><a href="#label-nav">Education</a></p>
                     </div>
 
                     <div>
@@ -136,12 +144,11 @@
                         <h2>
                             West Ukrainian National University
                         </h2>
-                        <p>SEducation & Professional Training | 2019 - 2024</p>
+                        <p>Education & Professional Training | 2019 - 2024</p>
 
                         <ul>
                             <li>Master's Degree in Computer Engineering (Earned in 2024).</li>
                             <li>Bachelor's Degree in Computer Engineering (Earned in 2023).</li>
-                            <li>Specialized in advanced computer systems architecture and software engineering principles.</li>
                             <li>Developed strong analytical and technical problem-solving skills through academic research and practical projects.</li>
                             <li>Successfully integrated academic knowledge with self-taught expertise in modern web development and 3D graphics.</li>
                         </ul>
